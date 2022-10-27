@@ -1,29 +1,27 @@
 import React from "react";
-import '../../index.css';
+import "../../index.css";
 import {
-    Carousel,
-    CarouselItem,
-    CarouselControl,
-    CarouselIndicators,
-    CarouselCaption,
-  } from 'reactstrap';
+  Carousel,
+  CarouselItem,
+  CarouselControl,
+  CarouselIndicators,
+  CarouselCaption,
+} from "reactstrap";
 
-import BeerMeal from '../../images/project1/beermeal.png';
-import CampingJournal from '../../images/project1/campingjournal.png';
-import CheckYourMovie from '../../images/project1/checkyourmovie.png';
-import FindFlix from '../../images/project1/findflix.png';
-import FlightPlanner from '../../images/project1/flightplanner.png';
-import LearningMyWay from '../../images/project1/learningmyway.png';
-import Motivation from '../../images/project1/motivation.png';
-import MusicHub from '../../images/project1/musichub.png';
-import NewsHeadline from '../../images/project1/newsheadline.png';
-import SearchDisplayer from '../../images/project1/searchdisplayer.png';
-import WhatsTheWord from '../../images/project1/whatstheword.png';
-import Where2Watch from '../../images/project1/where2watch.png';
-import WordPlay from '../../images/project1/wordplay.png';
-import Ymdb from '../../images/project1/ymdb.png';
-
-
+import BeerMeal from "../../images/project1/beermeal.png";
+import CampingJournal from "../../images/project1/campingjournal.png";
+import CheckYourMovie from "../../images/project1/checkyourmovie.png";
+import FindFlix from "../../images/project1/findflix.png";
+import FlightPlanner from "../../images/project1/flightplanner.png";
+import LearningMyWay from "../../images/project1/learningmyway.png";
+import Motivation from "../../images/project1/motivation.png";
+import MusicHub from "../../images/project1/musichub.png";
+import NewsHeadline from "../../images/project1/newsheadline.png";
+import SearchDisplayer from "../../images/project1/searchdisplayer.png";
+import WhatsTheWord from "../../images/project1/whatstheword.png";
+import Where2Watch from "../../images/project1/where2watch.png";
+import WordPlay from "../../images/project1/wordplay.png";
+import Ymdb from "../../images/project1/ymdb.png";
 
 export default function Projects1() {
     return (
