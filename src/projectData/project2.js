@@ -1,7 +1,7 @@
 const project2 = [{
         id: 1,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: 'https://github.com/MichaelSinn/game-hosting-site',
         // description: '',
@@ -10,7 +10,7 @@ const project2 = [{
     {
         id: 2,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -19,7 +19,7 @@ const project2 = [{
     {
         id: 3,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -28,7 +28,7 @@ const project2 = [{
     {
         id: 4,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -37,7 +37,7 @@ const project2 = [{
     {
         id: 5,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -46,7 +46,7 @@ const project2 = [{
     {
         id: 6,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: 'https://github.com/Favour01216/Adoption-site',
         // description: '',
@@ -55,7 +55,7 @@ const project2 = [{
     {
         id: 7,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -64,7 +64,7 @@ const project2 = [{
     {
         id: 8,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: 'https://github.com/Iva416/yourStore',
         // description: '',
@@ -73,7 +73,7 @@ const project2 = [{
     {
         id: 9,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: 'https://github.com/thivsiv28/Team9',
         // description: '',
@@ -82,7 +82,7 @@ const project2 = [{
     {
         id: 10,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -91,7 +91,7 @@ const project2 = [{
     {
         id: 11,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: 'https://github.com/ramosw1993/Get-A-Job',
         // description: '',
@@ -100,7 +100,7 @@ const project2 = [{
     {
         id: 12,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
@@ -109,7 +109,7 @@ const project2 = [{
     {
         id: 13,
         title: '',
-        image: ,
+        // image: ,
         deployed: '',
         repo: '',
         // description: '',
