@@ -1,15 +1,15 @@
 const project1 = [{
         id: 1,
         title: 'Wordplay',
-        image: wordplay,
+        // image: wordplay,
         deployed: 'https://amywilford.github.io/Word-Play/index.html',
-        repo: 'https://github.com/AmyWilford/Word-Play';
+        repo: 'https://github.com/AmyWilford/Word-Play',
         // description: '',
         team_members: "Amy, Sash, Kaye",
     }, {
         id: 2,
         title: 'Where 2 Watch',
-        image: where2watch,
+        // image: where2watch,
         deployed: 'https://dylangodfrey.github.io/Where2Watch/',
         repo: 'https://github.com/DylanGodfrey/Where2Watch',
         // description: "",
@@ -18,7 +18,7 @@ const project1 = [{
     {
         id: 3,
         title: 'Beer Meal Buddies',
-        image: beermeal,
+        // image: beermeal,
         deployed: 'https://branbao1995.github.io/Beer-Meal-Buddies/',
         repo: 'https://github.com/BranBao1995/Beer-Meal-Buddies',
         // description: "",
@@ -27,7 +27,7 @@ const project1 = [{
     {
         id: 4,
         title: 'Camping Journal',
-        image: campingjournal,
+        // image: campingjournal,
         deployed: 'https://michaelsinn.github.io/camping-journal/',
         repo: 'https://github.com/MichaelSinn/camping-journal',
         // description: '',
@@ -36,7 +36,7 @@ const project1 = [{
     {
         id: 5,
         title: 'Flight Planner',
-        image: flightplanner,
+        // image: flightplanner,
         deployed: 'https://benliu104.github.io/Project01-FlightPlanner/',
         repo: 'https://github.com/BenLiu104/Project01-FlightPlanner',
         // description: '',
@@ -45,7 +45,7 @@ const project1 = [{
     {
         id: 6,
         title: 'Your Movie Database',
-        image: ymdb,
+        // image: ymdb,
         deployed: 'https://hmhtom.github.io/Your-Movie-Databse/',
         repo: 'https://github.com/hmhtom/Your-Movie-Databse',
         // description: '',
@@ -54,7 +54,7 @@ const project1 = [{
     {
         id: 7,
         title: 'Learning My Way',
-        image: learningmyway,
+        // image: learningmyway,
         deployed: 'https://abedhasan79.github.io/Learning-My-Way/',
         repo: 'https://github.com/abedhasan79/Learning-My-Way',
         // description: '',
@@ -63,7 +63,7 @@ const project1 = [{
     {
         id: 8,
         title: 'FindFlix',
-        image: findflix,
+        // image: findflix,
         deployed: 'https://keysbhag.github.io/FindFlix-Project/',
         repo: 'https://github.com/keysbhag/FindFlix-Project',
         // description: "",
@@ -72,7 +72,7 @@ const project1 = [{
     {
         id: 9,
         title: 'Motivation Locale',
-        image: motivation,
+        // image: motivation,
         deployed: 'https://esrawameed.github.io/Motivation-Locale/',
         repo: 'https://github.com/EsraWameed/Motivation-Locale',
         // description: "",
@@ -81,7 +81,7 @@ const project1 = [{
     {
         id: 10,
         title: 'Search Displayer',
-        image: searchdisplayer,
+        // image: searchdisplayer,
         deployed: 'https://muaizkh.github.io/Search-Displayer/',
         repo: 'https://github.com/Muaizkh/Search-Displayer',
         // description: '',
@@ -90,7 +90,7 @@ const project1 = [{
     {
         id: 11,
         title: 'Check Your Move',
-        image: checkyourmovie,
+        // image: checkyourmovie,
         deployed: 'https://roflmelon.github.io/movie-db-app/',
         repo: 'https://github.com/roflmelon/movie-db-app',
         // description: '',
@@ -99,7 +99,7 @@ const project1 = [{
     {
         id: 12,
         title: 'News Headlines Aggregator',
-        image: newsheadline,
+        // image: newsheadline,
         deployed: 'https://honsumal.github.io/news-headline-aggregator/',
         repo: 'https://github.com/Honsumal/news-headline-aggregator',
         // description: '',
@@ -108,16 +108,16 @@ const project1 = [{
     {
         id: 13,
         title: 'Music Hub',
-        image: musichub,
+        // image: musichub,
         deployed: 'https://iva416.github.io/MusicHub/',
         repo: 'https://github.com/Iva416/MusicHub',
         // description: '',
-        team_members: "",
+        team_members: "Iva, Will, Constan",
     },
     {
         id: 14,
         title: 'Whats The Word?',
-        image: whatstheword,
+        // image: whatstheword,
         deployed: 'https://sagirikenaga.github.io/whats-the-word/',
         repo: 'https://github.com/sagirikenaga/whats-the-word',
         // description: '',
