@@ -3,7 +3,7 @@ const project1 = [{
         title: 'Wordplay',
         image: wordplay,
         deployed: 'https://amywilford.github.io/Word-Play/index.html',
-        repo: 'https://github.com/AmyWilford/Word-Play';
+        repo: 'https://github.com/AmyWilford/Word-Play',
         // description: '',
         team_members: "Amy, Sash, Kaye",
     }, {
