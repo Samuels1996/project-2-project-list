@@ -24,50 +24,53 @@ import WordPlay from "../../images/project1/wordplay.png";
 import Ymdb from "../../images/project1/ymdb.png";
 
 export default function Projects1() {
-    return (
-        <div className="gallery">
-            <span>
-                <img src={WordPlay}></img>
-            </span>
-            <span>
-                <img src={Where2Watch}></img>
-            </span>
-            <span>
-                <img src={BeerMeal}></img>
-            </span>
-            <span>
-                <img src={CampingJournal}></img>
-            </span>
-            <span>
-                <img src={FlightPlanner}></img>
-            </span>
-            <span>
-                <img src={Ymdb}></img>
-            </span>
-            <span>
-                <img src={LearningMyWay}></img>
-            </span>
-            <span>
-                <img src={FindFlix}></img>
-            </span>
-            <span>
-                <img src={Motivation}></img>
-            </span>
-            <span>
-                <img src={SearchDisplayer}></img>
-            </span>
-            <span>
-                <img src={CheckYourMovie}></img>
-            </span>
-            <span>
-                <img src={NewsHeadline}></img>
-            </span>
-            <span>
-                <img src={MusicHub}></img>
-            </span>
-            <span>
-                <img src={WhatsTheWord}></img>
-            </span>
-        </div>
-    )
+  return (
+    <div>
+      <h1>Hello World!</h1>
+      <main className="gallery">
+        <span id="pic1">
+          <img src={WordPlay} alt="wordPlay"></img>
+        </span>
+        <span id="pic2">
+          <img src={Where2Watch} alt="where2Watch"></img>
+        </span>
+        <span id="pic3">
+          <img src={BeerMeal}></img>
+        </span>
+        <span id="pic4">
+          <img src={CampingJournal}></img>
+        </span>
+        <span id="pic5">
+          <img src={FlightPlanner}></img>
+        </span>
+        <span id="pic6">
+          <img src={Ymdb}></img>
+        </span>
+        <span id="pic7">
+          <img src={LearningMyWay}></img>
+        </span>
+        <span id="pic8">
+          <img src={FindFlix}></img>
+        </span>
+        <span id="pic9">
+          <img src={Motivation}></img>
+        </span>
+        <span id="pic10">
+          <img src={SearchDisplayer}></img>
+        </span>
+        <span id="pic11">
+          <img src={CheckYourMovie}></img>
+        </span>
+        <span id="pic12">
+          <img src={NewsHeadline}></img>
+        </span>
+        <span id="pic12">
+          <img src={MusicHub}></img>
+        </span>
+        <span id="pic14">
+          <img src={WhatsTheWord}></img>
+        </span>
+      </main>
+    </div>
+  );
 }
