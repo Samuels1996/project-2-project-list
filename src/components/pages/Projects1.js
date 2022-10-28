@@ -26,50 +26,52 @@ import Ymdb from "../../images/project1/ymdb.png";
 export default function Projects1() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <main className="gallery">
-        <span id="pic1">
-          <img src={WordPlay} alt="Word Play"></img>
-        </span>
-        <span id="pic2">
-          <img src={Where2Watch} alt="Where 2 Watch"></img>
-        </span>
-        <span id="pic3">
-          <img src={BeerMeal} alt="Beer Meal"></img>
-        </span>
-        <span id="pic4">
-          <img src={CampingJournal} alt="Camping Journal"></img>
-        </span>
-        <span id="pic5">
-          <img src={FlightPlanner} alt="Flight Planner"></img>
-        </span>
-        <span id="pic6">
-          <img src={Ymdb} alt="YMDB"></img>
-        </span>
-        <span id="pic7">
-          <img src={LearningMyWay} alt="Learning My Way"></img>
-        </span>
-        <span id="pic8">
-          <img src={FindFlix} alt="FindFlix"></img>
-        </span>
-        <span id="pic9">
-          <img src={Motivation}></img>
-        </span>
-        <span id="pic10">
-          <img src={SearchDisplayer}></img>
-        </span>
-        <span id="pic11">
-          <img src={CheckYourMovie}></img>
-        </span>
-        <span id="pic12">
-          <img src={NewsHeadline}></img>
-        </span>
-        <span id="pic12">
-          <img src={MusicHub}></img>
-        </span>
-        <span id="pic14">
-          <img src={WhatsTheWord}></img>
-        </span>
+      <h1 id="title">Hello World!</h1>
+      <main>
+        <section className="gallery">
+          <span id="pic1">
+            <img src={WordPlay} alt="Word Play"></img>
+          </span>
+          <span id="pic2">
+            <img src={Where2Watch} alt="Where 2 Watch"></img>
+          </span>
+          <span id="pic3">
+            <img src={BeerMeal} alt="Beer Meal"></img>
+          </span>
+          <span id="pic4">
+            <img src={CampingJournal} alt="Camping Journal"></img>
+          </span>
+          <span id="pic5">
+            <img src={FlightPlanner} alt="Flight Planner"></img>
+          </span>
+          <span id="pic6">
+            <img src={Ymdb} alt="YMDB"></img>
+          </span>
+          <span id="pic7">
+            <img src={LearningMyWay} alt="Learning My Way"></img>
+          </span>
+          <span id="pic8">
+            <img src={FindFlix} alt="FindFlix"></img>
+          </span>
+          <span id="pic9">
+            <img src={Motivation}></img>
+          </span>
+          <span id="pic10">
+            <img src={SearchDisplayer}></img>
+          </span>
+          <span id="pic11">
+            <img src={CheckYourMovie}></img>
+          </span>
+          <span id="pic12">
+            <img src={NewsHeadline}></img>
+          </span>
+          <span id="pic13">
+            <img src={MusicHub}></img>
+          </span>
+          <span id="pic14">
+            <img src={WhatsTheWord}></img>
+          </span>
+        </section>
       </main>
     </div>
   );
