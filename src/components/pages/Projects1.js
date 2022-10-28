@@ -26,7 +26,7 @@ import Ymdb from "../../images/project1/ymdb.png";
 export default function Projects1() {
   return (
     <div>
-      <h1>Hello World!</h1>
+        <h1>Project 1!</h1>
       <main className="gallery">
         <span id="pic1">
           <img src={WordPlay} alt="wordPlay"></img>

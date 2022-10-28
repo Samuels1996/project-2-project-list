@@ -24,8 +24,10 @@ code {
   width: 300px;
   height: 200px;
   transform-style:preserve-3d;
-  animation: rotate 10s linear infinite;
+  animation: rotate 43s linear infinite;
+  margin-top: 15rem;
 }
+
 
 @keyframes rotate{
   from{transform:perspective(1200px) rotateY(0deg);
@@ -42,6 +44,10 @@ code {
   transform-origin: center;
   transform-style: preserve-3d;
 
+}
+
+.gallery h1{
+  text-align: center;
 }
 
 #pic1 {
