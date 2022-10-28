@@ -29,46 +29,46 @@ export default function Projects1() {
         <h1>Project 1!</h1>
       <main className="gallery">
         <span id="pic1">
-          <img src={WordPlay} alt="wordPlay"></img>
+          <img src={WordPlay} alt="Word Play"></img>
         </span>
         <span id="pic2">
-          <img src={Where2Watch} alt="where2Watch"></img>
+          <img src={Where2Watch} alt="Where 2 Watch"></img>
         </span>
         <span id="pic3">
-          <img src={BeerMeal}></img>
+          <img src={BeerMeal} alt="Beer Meal"></img>
         </span>
         <span id="pic4">
-          <img src={CampingJournal}></img>
+          <img src={CampingJournal} alt="Camping Journal"></img>
         </span>
         <span id="pic5">
-          <img src={FlightPlanner}></img>
+          <img src={FlightPlanner} alt="Flight Planner"></img>
         </span>
         <span id="pic6">
-          <img src={Ymdb}></img>
+          <img src={Ymdb} alt="YMDB"></img>
         </span>
         <span id="pic7">
-          <img src={LearningMyWay}></img>
+          <img src={LearningMyWay} alt="Learning My Way"></img>
         </span>
         <span id="pic8">
-          <img src={FindFlix}></img>
+          <img src={FindFlix} alt="FindFlix"></img>
         </span>
         <span id="pic9">
-          <img src={Motivation}></img>
+          <img src={Motivation} alt="Motivation"></img>
         </span>
         <span id="pic10">
-          <img src={SearchDisplayer}></img>
+          <img src={SearchDisplayer} alt="Search Displayer"></img>
         </span>
         <span id="pic11">
-          <img src={CheckYourMovie}></img>
+          <img src={CheckYourMovie} alt="Check Your Movie"></img>
         </span>
         <span id="pic12">
-          <img src={NewsHeadline}></img>
+          <img src={NewsHeadline} alt="News Headline"></img>
         </span>
-        <span id="pic12">
-          <img src={MusicHub}></img>
+        <span id="pic13">
+          <img src={MusicHub} alt="MusicHub"></img>
         </span>
         <span id="pic14">
-          <img src={WhatsTheWord}></img>
+          <img src={WhatsTheWord} alt="Whats The Word"></img>
         </span>
       </main>
     </div>

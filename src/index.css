@@ -1,6 +1,7 @@
 div {
   position:absolute;
-  left: 250px;
+  top: 100px;
+  left: 255px;
 }
 
 body {
@@ -21,11 +22,14 @@ code {
 
 .gallery {
   position:relative;
-  width: 300px;
-  height: 200px;
+  width: 365px;
+  height: 230px;
   transform-style:preserve-3d;
   animation: rotate 43s linear infinite;
-  margin-top: 15rem;
+}
+
+.gallery:hover {
+  animation-play-state: paused;
 }
 
 
@@ -51,73 +55,73 @@ code {
 }
 
 #pic1 {
-  transform:rotateY(calc(1 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(1 * 30deg))
+  translateZ(700px);
 }
 
 #pic2 {
-  transform:rotateY(calc(2 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(2 * 30deg))
+  translateZ(700px);
 }
 
 #pic3 {
-  transform:rotateY(calc(3 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(3 * 30deg))
+  translateZ(700px);
 }
 
 #pic4 {
-  transform:rotateY(calc(4 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(4 * 30deg))
+  translateZ(700px);
 }
 
 #pic5 {
-  transform:rotateY(calc(5 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(5 * 30deg))
+  translateZ(700px);
 }
 
 #pic6 {
-  transform:rotateY(calc(6 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(6 * 30deg))
+  translateZ(700px);
 }
 
 #pic7 {
-  transform:rotateY(calc(7 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(7 * 30deg))
+  translateZ(700px);
 }
 
 #pic8 {
-  transform:rotateY(calc(8 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(8 * 30deg))
+  translateZ(700px);
 }
 
 #pic9 {
-  transform:rotateY(calc(9 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(9 * 30deg))
+  translateZ(700px);
 }
 
 #pic10 {
-  transform:rotateY(calc(10 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(10 * 30deg))
+  translateZ(700px);
 }
 
 #pic11 {
-  transform:rotateY(calc(11 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(11 * 30deg))
+  translateZ(700px);
 }
 
 #pic12 {
-  transform:rotateY(calc(12 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(12 * 30deg))
+  translateZ(700px);
 }
 
 #pic13 {
-  transform:rotateY(calc(13 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(13 * 30deg))
+  translateZ(700px);
 }
 
 #pic14 {
-  transform:rotateY(calc(14 * 45deg))
-  translateZ(380px);
+  transform:rotateY(calc(14 * 30deg))
+  translateZ(700px);
 }
 
 .gallery span img{
