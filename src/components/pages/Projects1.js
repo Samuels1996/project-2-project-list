@@ -29,28 +29,28 @@ export default function Projects1() {
       <h1>Hello World!</h1>
       <main className="gallery">
         <span id="pic1">
-          <img src={WordPlay} alt="wordPlay"></img>
+          <img src={WordPlay} alt="Word Play"></img>
         </span>
         <span id="pic2">
-          <img src={Where2Watch} alt="where2Watch"></img>
+          <img src={Where2Watch} alt="Where 2 Watch"></img>
         </span>
         <span id="pic3">
-          <img src={BeerMeal}></img>
+          <img src={BeerMeal} alt="Beer Meal"></img>
         </span>
         <span id="pic4">
-          <img src={CampingJournal}></img>
+          <img src={CampingJournal} alt="Camping Journal"></img>
         </span>
         <span id="pic5">
-          <img src={FlightPlanner}></img>
+          <img src={FlightPlanner} alt="Flight Planner"></img>
         </span>
         <span id="pic6">
-          <img src={Ymdb}></img>
+          <img src={Ymdb} alt="YMDB"></img>
         </span>
         <span id="pic7">
-          <img src={LearningMyWay}></img>
+          <img src={LearningMyWay} alt="Learning My Way"></img>
         </span>
         <span id="pic8">
-          <img src={FindFlix}></img>
+          <img src={FindFlix} alt="FindFlix"></img>
         </span>
         <span id="pic9">
           <img src={Motivation}></img>
