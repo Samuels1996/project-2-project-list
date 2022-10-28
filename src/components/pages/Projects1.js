@@ -31,6 +31,7 @@ export default function Projects1() {
         <section className="gallery">
           <span id="pic1">
             <img src={WordPlay} alt="Word Play"></img>
+            <p>Word Play</p>
           </span>
           <span id="pic2">
             <img src={Where2Watch} alt="Where 2 Watch"></img>
