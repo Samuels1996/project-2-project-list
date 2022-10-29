@@ -25,9 +25,9 @@ import Ymdb from "../../images/project1/ymdb.png";
 
 export default function Projects1() {
   return (
-    <div>
-      <h1 id="title">Hello World!</h1>
-      <main>
+    <main>
+      {/* <h1 id="title">Hello World!</h1> */}
+      <div id="carousel">
         <section className="gallery">
           <span id="pic1">
             <img src={WordPlay} alt="Word Play"></img>
@@ -73,7 +73,7 @@ export default function Projects1() {
             <img src={WhatsTheWord}></img>
           </span>
         </section>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
