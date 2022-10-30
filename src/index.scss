@@ -43,18 +43,37 @@ main {
 
 .gallery:hover {
   animation-play-state: paused;
-  span {
-    opacity: .7;
-  }
-
 }
 
-.gallery p {
+span:hover {
+  opacity: .4;
+  
+  :nth-child(2) {
+    display:block;
+  }
+  :nth-child(3) {
+    display:block;
+  }
+}
+
+.gallery .demo {
   position:absolute;
-  bottom: -50px;
-  left: 100px;
+  top: 30px;
+  left: 40px;
   font-weight: 400;
   font-size: 24px;
+  display: none;
+  text-decoration: none;
+}
+
+.gallery .github {
+  position:absolute;
+  bottom: 30px;
+  right: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  display: none;
+  text-decoration: none;
 }
 
 @keyframes rotate{
@@ -71,7 +90,6 @@ main {
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-
 }
 
 #pic1 {

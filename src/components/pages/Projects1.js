@@ -30,7 +30,12 @@ export default function Projects1() {
         <section className="gallery">
           <span id="pic1">
             <img src={WordPlay} alt="Word Play"></img>
-            <p>Word Play</p>
+            <a className="demo" href="https://github.com/MpAlfano">
+              Live Demo
+            </a>
+            <a className="github" href="https://github.com/MpAlfano">
+              Github
+            </a>
           </span>
           <span id="pic2">
             <img src={Where2Watch} alt="Where 2 Watch"></img>
