@@ -1,6 +1,6 @@
 :root {
 --varTranslate: 280px;
---varPerspective: 1000px;
+--varPerspective: 800px;
 }
 
 main {
@@ -246,57 +246,64 @@ main {
   }
 }
 
+@media only screen and (min-width: 860px) {
+  :root {
+    --varTranslate: 380px;
+    --varPerspective: 1000px;
+  }
+  .gallery {
+    width: 170px;
+    height: 106px;
+    padding-top: 0;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   :root {
-    --varPerspective: 3000px;
-    --varTranslate: 500px
+    --varPerspective: 2000px;
+    --varTranslate: 450px
   }
 
   .gallery {
-    width: 228px;
-    height: 143px;
+    width: 200px;
+    height: 125px;
     padding-top: 0;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   :root {
-    --varPerspective: 2400px;
-    --varTranslate: 620px
+    --varPerspective: 1500px;
+    --varTranslate: 570px
   }
 
   .gallery {
-    width: 280px;
-    height: 175px;
+    width: 250px;
+    height: 157px;
     padding-top: 0;
   }
 }
 
 @media only screen and (min-width: 1500px) {
   :root {
-    --varPerspective: 2000px
+    --varPerspective: 1300px;
+    --varTranslate: 600px
   }
-}
-@media only screen and (min-width: 1600px) {
-  :root {
-    --varPerspective: 1300px
+  .gallery {
+    width: 265px;
+    height: 165px;
+    padding-top: 0;
   }
 }
 
 @media only screen and (min-width: 1700px) {
   :root {
-    --varPerspective: 1200px
+    --varPerspective: 1300px;
+    --varTranslate: 720px
   }
-}
-
-@media only screen and (min-width: 1800px) {
-  :root {
-    --varPerspective: 1100px
-  }
-}
-
-@media only screen and (min-width: 2000px) {
-  :root {
-    --varPerspective: 1000px
+  .gallery {
+    width: 320px;
+    height: 200px;
+    padding-top: 0;
   }
 }
