@@ -10,7 +10,7 @@ main {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #1a1919;
   min-height: 100vh;
   display: table;
   position: absolute;
@@ -46,13 +46,22 @@ main {
 }
 
 span:hover {
-  opacity: .4;
+  opacity: .6;
+
   
   :nth-child(2) {
     display:block;
+    animation: fadeIn;
+    animation-duration: 2s;
+    
   }
+
+
   :nth-child(3) {
     display:block;
+    animation: fadeIn;
+    animation-duration: 2s;
+
   }
 }
 
