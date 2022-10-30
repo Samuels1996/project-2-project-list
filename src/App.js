@@ -1,6 +1,4 @@
-// import logo from './logo.svg';
-import './App.css';
-import Container from './components/Container';
+import Container from "./components/Container";
 const App = () => <Container />;
 //   return (
 //     <div className="App">

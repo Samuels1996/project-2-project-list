@@ -43,6 +43,10 @@ main {
 
 .gallery:hover {
   animation-play-state: paused;
+  span {
+    opacity: .7;
+  }
+
 }
 
 .gallery p {
