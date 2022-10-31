@@ -10,7 +10,7 @@ main {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1a1919;
+  background: linear-gradient(to right,#bc13fe 2%, #020309 8% 92%, #bc13fe 98%);
   min-height: 100vh;
   display: table;
   position: absolute;
@@ -46,23 +46,34 @@ main {
 }
 
 span:hover {
-  opacity: .6;
+  opacity: .9;
+  border: 3px solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #bc13fe,
+  0 0 0.8rem #bc13fe,
+  0 0 2.8rem #bc13fe,
+  inset 0 0 1.3rem #bc13fe;
 
   
-  :nth-child(2) {
+  :nth-child(2), :nth-child(3) {
     display:block;
     animation: fadeIn;
     animation-duration: 2s;
-    
+    color: #65008c;
+    text-shadow:2px 5px 10px #65008c, 3px 3px 15px black
+  }
+  :nth-child(2):hover, :nth-child(3):hover {
+    color:#bc13fe
   }
 
 
-  :nth-child(3) {
-    display:block;
-    animation: fadeIn;
-    animation-duration: 2s;
+  // :nth-child(3) {
+  //   display:block;
+  //   animation: fadeIn;
+  //   animation-duration: 2s;
 
-  }
+  // }
 }
 
 .gallery .demo {
@@ -182,16 +193,6 @@ span:hover {
   object-fit: cover;
 }
 
-.gallery:hover span img {
-  border: 3px solid #fff;
-  box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #bc13fe,
-  0 0 0.8rem #bc13fe,
-  0 0 2.8rem #bc13fe,
-  inset 0 0 1.3rem #bc13fe;
-}
-
 @media only screen and (min-width: 621px) {
   :root {
     --varTranslate: 400px;
@@ -206,6 +207,9 @@ span:hover {
 @media only screen and (min-width: 821px) {
   :root {
     --varTranslate: 350px;
+  }
+  main {
+    background: linear-gradient(#bc13fe 2%, #020309 8% 92%, #bc13fe 98%)
   }
   .gallery {
     width: 160px;
