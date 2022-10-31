@@ -101,6 +101,10 @@ span:hover {
   transform-style: preserve-3d;
 }
 
+.gallery a{
+  color: #fff;
+}
+
 #pic1 {
   transform:rotateX(calc(1 * 77.14285714285714deg))
   translateZ(var(--varTranslate));
@@ -348,3 +352,5 @@ span:hover {
     padding-top: 0;
   }
 }
+
+// How do I build snake in react?   
