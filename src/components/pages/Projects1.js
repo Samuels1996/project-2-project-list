@@ -11,10 +11,10 @@ export default function Projects1() {
             return (
               <span id={`pic${index + 1}`} key={project.id}>
                 <img src={project.image} alt={project.title}></img>
-                <a className="demo" href={project.deployed}>
+                <a className="demo" href={project.deployed} target="_blank" rel="noopener noreferrer">
                   Live Demo
                 </a>
-                <a className="github" href={project.repo}>
+                <a className="github" href={project.repo}target="_blank" rel="noopener noreferrer">
                   Github
                 </a>
               </span>
