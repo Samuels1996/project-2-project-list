@@ -33,12 +33,12 @@ main {
 }
 
 .gallery {
-  border: 3px solid green;
+
   margin: auto;
   width: 200px;
   height: 125px;
   transform-style:preserve-3d;
-  animation: rotate 25s linear infinite;
+  animation: rotate 43s linear infinite;
 }
 
 .gallery:hover {
@@ -176,6 +176,16 @@ span:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.gallery:hover span img {
+  border: 3px solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #bc13fe,
+  0 0 0.8rem #bc13fe,
+  0 0 2.8rem #bc13fe,
+  inset 0 0 1.3rem #bc13fe;
 }
 
 @media only screen and (min-width: 621px) {
