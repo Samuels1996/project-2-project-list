@@ -10,7 +10,19 @@ main {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1a1919;
+  // background-color: #1a1919;
+
+    background: linear-gradient(#bc13fe 2%, #020309 8% 92%, #bc13fe 98%);
+  
+    // background: linear-gradient(
+    //   to right,
+    //   red 20%,
+    //   orange 20% 40%,
+    //   yellow 40% 60%,
+    //   green 60% 80%,
+    //   blue 80%
+    // );
+
   min-height: 100vh;
   display: table;
   position: absolute;
