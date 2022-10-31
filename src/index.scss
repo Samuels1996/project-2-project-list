@@ -1,0 +1,340 @@
+:root {
+--varTranslate: 280px;
+--varPerspective: 800px;
+}
+
+main {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1919;
+  min-height: 100vh;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#carousel {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+#title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 94px;
+}
+
+.gallery {
+  border: 3px solid green;
+  margin: auto;
+  width: 200px;
+  height: 125px;
+  transform-style:preserve-3d;
+  animation: rotate 25s linear infinite;
+}
+
+.gallery:hover {
+  animation-play-state: paused;
+}
+
+span:hover {
+  opacity: .6;
+
+  
+  :nth-child(2) {
+    display:block;
+    animation: fadeIn;
+    animation-duration: 2s;
+    
+  }
+
+
+  :nth-child(3) {
+    display:block;
+    animation: fadeIn;
+    animation-duration: 2s;
+
+  }
+}
+
+.gallery .demo {
+  position:absolute;
+  top: 30px;
+  left: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  display: none;
+  text-decoration: none;
+}
+
+.gallery .github {
+  position:absolute;
+  bottom: 30px;
+  right: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  display: none;
+  text-decoration: none;
+}
+
+@keyframes rotate{
+  from{transform:perspective(var(--varPerspective)) rotateX(360deg);
+  }
+
+  to{transform: perspective(var(--varPerspective)) rotateX(0deg);
+  }
+}
+
+.gallery span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+}
+
+#pic1 {
+  transform:rotateX(calc(1 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic2 {
+  transform:rotateX(calc(2 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic3 {
+  transform:rotateX(calc(3 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic4 {
+  transform:rotateX(calc(4 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic5 {
+  transform:rotateX(calc(5 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic6 {
+  transform:rotateX(calc(6 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic7 {
+  transform:rotateX(calc(7 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic8 {
+  transform:rotateX(calc(8 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic9 {
+  transform:rotateX(calc(9 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic10 {
+  transform:rotateX(calc(10 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic11 {
+  transform:rotateX(calc(11 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic12 {
+  transform:rotateX(calc(12 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic13 {
+  transform:rotateX(calc(13 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+#pic14 {
+  transform:rotateX(calc(14 * 77.14285714285714deg))
+  translateZ(var(--varTranslate));
+}
+
+.gallery span img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 621px) {
+  :root {
+    --varTranslate: 400px;
+  }
+  .gallery {
+    width: 288px;
+    height: 180px;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 821px) {
+  :root {
+    --varTranslate: 350px;
+  }
+  .gallery {
+    width: 160px;
+    height: 100px;
+    padding-top: 0;
+  }
+  #pic1 {
+    transform:rotateY(calc(1 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic2 {
+    transform:rotateY(calc(2 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic3 {
+    transform:rotateY(calc(3 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic4 {
+    transform:rotateY(calc(4 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic5 {
+    transform:rotateY(calc(5 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic6 {
+    transform:rotateY(calc(6 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic7 {
+    transform:rotateY(calc(7 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic8 {
+    transform:rotateY(calc(8 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic9 {
+    transform:rotateY(calc(9 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic10 {
+    transform:rotateY(calc(10 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic11 {
+    transform:rotateY(calc(11 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic12 {
+    transform:rotateY(calc(12 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic13 {
+    transform:rotateY(calc(13 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+  
+  #pic14 {
+    transform:rotateY(calc(14 * 77.14285714285714deg))
+    translateZ(var(--varTranslate));
+  }
+
+  @keyframes rotate{
+    from{transform:perspective(var(--varPerspective)) rotateY(0deg);
+    }
+  
+    to{transform: perspective(var(--varPerspective)) rotateY(360deg);
+    }
+  }
+}
+
+@media only screen and (min-width: 860px) {
+  :root {
+    --varTranslate: 380px;
+    --varPerspective: 1000px;
+  }
+  .gallery {
+    width: 170px;
+    height: 106px;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  :root {
+    --varPerspective: 2000px;
+    --varTranslate: 450px
+  }
+
+  .gallery {
+    width: 200px;
+    height: 125px;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  :root {
+    --varPerspective: 1500px;
+    --varTranslate: 570px
+  }
+
+  .gallery {
+    width: 250px;
+    height: 157px;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  :root {
+    --varPerspective: 1300px;
+    --varTranslate: 600px
+  }
+  .gallery {
+    width: 265px;
+    height: 165px;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  :root {
+    --varPerspective: 1300px;
+    --varTranslate: 720px
+  }
+  .gallery {
+    width: 320px;
+    height: 200px;
+    padding-top: 0;
+  }
+}

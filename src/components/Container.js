@@ -1,21 +1,19 @@
 import React, { useState } from "react";
-import Projects1 from './pages/Projects1';
-
+import Projects1 from "./pages/Projects1";
 
 export default function ProjectContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState("Home");
 
-    const renderPage = () => {
+  const renderPage = () => {
     return <Projects1 />;
-        
-    };
+  };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page);
 
-    return (
-        <div>
-            {handlePageChange}
-            {renderPage()}
-        </div>
-    );
+  return (
+    <div>
+      {handlePageChange}
+      {renderPage()}
+    </div>
+  );
 }
