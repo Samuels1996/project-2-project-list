@@ -11,7 +11,7 @@ export default function ProjectContainer() {
 
   const renderPage = () => {
     if (currentPage === "Project2") {
-      return <Projects2 projects={projectData2} name="test" />;
+      return <Projects1 projects={projectData2} name="pic" />;
     }
     return <Projects1 projects={projectData1} name="pic" />;
   };

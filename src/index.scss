@@ -1,5 +1,6 @@
 :root {
 --varTranslate: 280px;
+--varTranslate2: 300px;
 --varPerspective: 800px;
 }
 
@@ -383,7 +384,8 @@ span:hover {
 @media only screen and (min-width: 992px) {
   :root {
     --varPerspective: 2000px;
-    --varTranslate: 450px
+    --varTranslate: 450px;
+    --varTranslate2: 450px
   }
 
   .gallery {
@@ -445,7 +447,8 @@ span:hover {
 @media only screen and (min-width: 1500px) {
   :root {
     --varPerspective: 1300px;
-    --varTranslate: 600px
+    --varTranslate: 600px;
+    --varTranslate2: 600px
   }
   .gallery {
     width: 265px;
@@ -457,7 +460,8 @@ span:hover {
 @media only screen and (min-width: 1700px) {
   :root {
     --varPerspective: 1300px;
-    --varTranslate: 720px
+    --varTranslate: 720px;
+    --varTranslate2: 720px
   }
   .gallery {
     width: 320px;
@@ -468,130 +472,134 @@ span:hover {
 
 #test1 {
   transform:rotateY(calc(1 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test2 {
   transform:rotateY(calc(2 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test3 {
   transform:rotateY(calc(3 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test4 {
   transform:rotateY(calc(4 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test5 {
   transform:rotateY(calc(5 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test6 {
   transform:rotateY(calc(6 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test7 {
   transform:rotateY(calc(7 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test8 {
   transform:rotateY(calc(8 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test9 {
   transform:rotateY(calc(9 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test10 {
   transform:rotateY(calc(10 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test11 {
   transform:rotateY(calc(11 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test12 {
   transform:rotateY(calc(12 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
 #test13 {
   transform:rotateY(calc(13 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
+  translateZ(var(--varTranslate2));
 }
 
-#test1 {
-  transform:rotateX(calc(1 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
 
-#test2 {
-  transform:rotateX(calc(2 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
 
-#test3 {
-  transform:rotateX(calc(3 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
 
-#test4 {
-  transform:rotateX(calc(4 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
 
-#test5 {
-  transform:rotateX(calc(5 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test1 {
+//   transform:rotateX(calc(1 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test6 {
-  transform:rotateX(calc(6 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test2 {
+//   transform:rotateX(calc(2 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test7 {
-  transform:rotateX(calc(7 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test3 {
+//   transform:rotateX(calc(3 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test8 {
-  transform:rotateX(calc(8 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test4 {
+//   transform:rotateX(calc(4 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test9 {
-  transform:rotateX(calc(9 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test5 {
+//   transform:rotateX(calc(5 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test10 {
-  transform:rotateX(calc(10 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test6 {
+//   transform:rotateX(calc(6 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test11 {
-  transform:rotateX(calc(11 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test7 {
+//   transform:rotateX(calc(7 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test12 {
-  transform:rotateX(calc(12 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test8 {
+//   transform:rotateX(calc(8 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
 
-#test13 {
-  transform:rotateX(calc(13 * 76.15384615384615deg))
-  translateZ(var(--varTranslate));
-}
+// #test9 {
+//   transform:rotateX(calc(9 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
+
+// #test10 {
+//   transform:rotateX(calc(10 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
+
+// #test11 {
+//   transform:rotateX(calc(11 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
+
+// #test12 {
+//   transform:rotateX(calc(12 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
+
+// #test13 {
+//   transform:rotateX(calc(13 * 76.15384615384615deg))
+//   translateZ(var(--varTranslate2));
+// }
