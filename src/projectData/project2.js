@@ -10,7 +10,7 @@ const project2 = [{
     {
         id: 2,
         title: 'The Lending Station',
-        // image: './images/project2/',
+        image: './images/project2/thelendingstation.png',
         deployed: 'https://the-lending-station.herokuapp.com/',
         repo: 'https://github.com/sashdc/the-lending-station',
         // description: '',
@@ -82,8 +82,8 @@ const project2 = [{
     {
         id: 10,
         title: 'Ratatoullie',
-        // image: './images/project2/',
-        deployed: '',
+        image: './images/project2/ratatoullie.png',
+        deployed: 'https://ratatouille-recipes.herokuapp.com/',
         repo: 'https://github.com/pav1593/Ratatouille',
         // description: '',
         team_members: "Kaye, Nick, Hao",
@@ -100,7 +100,7 @@ const project2 = [{
     {
         id: 12,
         title: 'Tech Event Planner',
-        // image: './images/project2/',
+        image: './images/project2/techeventplanner.png',
         deployed: 'https://tech-event-planner.herokuapp.com/',
         repo: 'https://github.com/hmhtom/tech-event-planner',
         // description: '',
