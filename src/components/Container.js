@@ -20,7 +20,20 @@ export default function ProjectContainer() {
 
   return (
     <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* <Navbar currentPage={currentPage} handlePageChange={handlePageChange} /> */}
+      <div>
+        <ul>
+          <li>
+            <p>Project 1</p>
+          </li>
+          <li>
+            <p>Project 2</p>
+          </li>
+          <li>
+            <p>Project 3</p>
+          </li>
+        </ul>
+      </div>
       {renderPage()}
     </div>
   );
