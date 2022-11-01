@@ -6,13 +6,13 @@ function Navbar({ currentPage, handlePageChange}) {
         <div>
             <ul>
                 <li className='nav-item'>
-                    <a href='#project1' onClick={() => handlePageChange('Project1')} >Project 1</a>
+                    <p>Project 1</p>
                 </li>
                 <li className='nav-item'>
-                    <a href='#project2' onClick={() => handlePageChange('Project2')}>Project 2</a>
+                    <p>Project 2</p>
                 </li>
                 <li className='nav-item'>
-                    <a href='#project3' onClick={() => handlePageChange('Project3')}>Project 3</a>
+                    <p>Project 3</p>
                 </li>
             </ul>
         </div>
