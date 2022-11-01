@@ -1,16 +1,13 @@
 import React from "react";
-import projects from "../../projectData/project1";
-// import Projects2 from './Project2';
 
-export default function Projects1() {
-  console.log(projects);
+export default function Projects1(props) {
+  console.log(props);
 
   // const navigate = useNavigate;
 
   // const navigateProject2 = () => {
   //   navigate('/Projects2');
   // }
-
 
   return (
     <main>
@@ -20,10 +17,9 @@ export default function Projects1() {
       </Routes> */}
       <div id="carousel">
         <section className="gallery">
-          {projects.map((project, index) => {
+          {props.projects.map((project, index) => {
             return (
               <span id={`pic${index + 1}`} key={project.id}>
-                {/* <div id="title">{project.title}</div> */}
                 <img src={project.image} alt={project.title}></img>
                 <a
                   className="demo"
