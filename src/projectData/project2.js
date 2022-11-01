@@ -1,7 +1,7 @@
 const project2 = [{
         id: 1,
         title: 'Game Hosting Site',
-        // image: ,
+        image: './images/project2/gamehostingsite.png',
         deployed: 'https://game-hosting-site.herokuapp.com/',
         repo: 'https://github.com/MichaelSinn/game-hosting-site',
         // description: '',
@@ -10,7 +10,7 @@ const project2 = [{
     {
         id: 2,
         title: 'The Lending Station',
-        // image: ,
+        // image: './images/project2/',
         deployed: 'https://the-lending-station.herokuapp.com/',
         repo: 'https://github.com/sashdc/the-lending-station',
         // description: '',
@@ -19,7 +19,7 @@ const project2 = [{
     {
         id: 3,
         title: 'Psychic Journey',
-        // image: ,
+        image: './images/project2/psychicjourney.png',
         deployed: 'https://psychic-journey.herokuapp.com/',
         repo: 'https://github.com/NathanKryz/psychic-journey.git',
         // description: '',
@@ -28,7 +28,7 @@ const project2 = [{
     {
         id: 4,
         title: 'Goodie Foodie Reviews',
-        // image: ,
+        image: './images/project2/goodiefoodie.png',
         deployed: 'https://goodie-foodies-heroku.herokuapp.com/',
         repo: 'https://github.com/DianasJourney/GoodieFoodieReviews',
         // description: '',
@@ -37,7 +37,7 @@ const project2 = [{
     {
         id: 5,
         title: 'Tea Gram',
-        // image: ,
+        image: './images/project2/teagram.png',
         deployed: 'https://tea-gram.herokuapp.com/',
         repo: 'https://github.com/EsraWameed/teagram',
         // description: '',
@@ -46,7 +46,7 @@ const project2 = [{
     {
         id: 6,
         title: 'Pet Place',
-        // image: ,
+        // image: './images/project2/',
         deployed: 'https://adoption-website.herokuapp.com/',
         repo: 'https://github.com/Favour01216/Adoption-site',
         // description: '',
@@ -55,7 +55,7 @@ const project2 = [{
     {
         id: 7,
         title: 'Budget',
-        // image: ,
+        image: './images/project2/budget.png',
         deployed: 'https://bloodcurdling-vampire-96793.herokuapp.com/',
         repo: 'https://github.com/jwiz9/verbose-robot',
         // description: '',
@@ -64,7 +64,7 @@ const project2 = [{
     {
         id: 8,
         title: 'Your Store',
-        // image: ,
+        image: './images/project2/yourstore.png',
         deployed: 'https://your-store-jibstudios.herokuapp.com/',
         repo: 'https://github.com/Iva416/yourStore',
         // description: '',
@@ -73,7 +73,7 @@ const project2 = [{
     {
         id: 9,
         title: 'Shophub',
-        // image: ,
+        image: './images/project2/shophub.png',
         deployed: 'https://frightful-coffin-45274.herokuapp.com/',
         repo: 'https://github.com/thivsiv28/Team9',
         // description: '',
@@ -82,7 +82,7 @@ const project2 = [{
     {
         id: 10,
         title: 'Ratatoullie',
-        // image: ,
+        // image: './images/project2/',
         deployed: '',
         repo: 'https://github.com/pav1593/Ratatouille',
         // description: '',
@@ -91,7 +91,7 @@ const project2 = [{
     {
         id: 11,
         title: 'Get A Job',
-        // image: ,
+        image: './images/project2/getajob.png',
         deployed: 'https://get-a-job.herokuapp.com/',
         repo: 'https://github.com/ramosw1993/Get-A-Job',
         // description: '',
@@ -100,7 +100,7 @@ const project2 = [{
     {
         id: 12,
         title: 'Tech Event Planner',
-        // image: ,
+        // image: './images/project2/',
         deployed: '',
         repo: 'https://github.com/hmhtom/tech-event-planner',
         // description: '',
@@ -109,7 +109,7 @@ const project2 = [{
     {
         id: 13,
         title: 'Food City Grocery',
-        // image: ,
+        image: './images/project2/foodcitygrocery.png',
         deployed: 'https://food-city-grocery.herokuapp.com/',
         repo: 'https://github.com/keysbhag/Food-City-Grocery',
         // description: '',
