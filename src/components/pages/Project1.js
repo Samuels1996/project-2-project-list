@@ -1,20 +1,9 @@
 import React from "react";
-import { Button } from "bootstrap";
 export default function Projects1(props) {
   console.log(props);
 
-  // const navigate = useNavigate;
-
-  // const navigateProject2 = () => {
-  //   navigate('/Projects2');
-  // }
-
   return (
     <main>
-      {/* <button onClick={navigateProject2}>Test</button> */}
-      {/* <Routes>
-        <Route path="/Projects2" element={<Projects2 />} />
-      </Routes> */}
       <div id="carousel">
         <section className="gallery">
           {props.projects.map((project, index) => {
