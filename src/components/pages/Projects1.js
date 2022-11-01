@@ -1,15 +1,15 @@
-import React, { Routes, Route, useNavigate } from "react";
+import React from "react";
 import projects from "../../projectData/project1";
-import Projects2 from './Project2';
+// import Projects2 from './Project2';
 
 export default function Projects1() {
   console.log(projects);
 
-  const navigate = useNavigate;
+  // const navigate = useNavigate;
 
-  const navigateProject2 = () => {
-    navigate('/Projects2');
-  }
+  // const navigateProject2 = () => {
+  //   navigate('/Projects2');
+  // }
 
 
   return (
