@@ -74,6 +74,13 @@ span:hover {
   }
 }
 
+.nav-item{
+  position: absolute;
+  color: #fff;
+  top: 15px;
+  left: 20px;
+}
+
 .gallery .demo {
   position:absolute;
   top: 15px;
@@ -108,6 +115,10 @@ span:hover {
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
+}
+
+.gallery a{
+  color: #fff;
 }
 
 #pic1 {
@@ -426,3 +437,5 @@ span:hover {
     padding-top: 0;
   }
 }
+
+// How do I build snake in react?   

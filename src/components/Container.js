@@ -1,10 +1,15 @@
 import React, { useState } from "react";
+import Navbar from './Navbar';
 import Projects1 from "./pages/Projects1";
+import Projects2 from "./pages/Project2";
 
 export default function ProjectContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
+    if (currentPage === 'Project2') {
+      return <Projects2 />;
+    }
     return <Projects1 />;
   };
 
@@ -12,8 +17,9 @@ export default function ProjectContainer() {
 
   return (
     <div>
-      {handlePageChange}
+      <Navbar  currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );
 }
+
