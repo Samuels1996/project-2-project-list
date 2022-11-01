@@ -20,20 +20,26 @@ main {
   width: 100%;
 }
 
+#title {
+  display: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: -25px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color:black;
+  text-shadow:2px 5px 10px #65008c, 3px 3px 15px white
+}
+
 #carousel {
   display: table-cell;
   vertical-align: middle;
-
 }
-
-#title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 94px;
-}
-
 .gallery {
-
   margin: auto;
   width: 200px;
   height: 125px;
@@ -46,7 +52,7 @@ main {
 }
 
 span:hover {
-  opacity: .9;
+  opacity: .95;
   border: 3px solid #fff;
   box-shadow: 0 0 .2rem #fff,
   0 0 .2rem #fff,
@@ -61,37 +67,29 @@ span:hover {
     animation: fadeIn;
     animation-duration: 2s;
     color: #65008c;
-    text-shadow:2px 5px 10px #65008c, 3px 3px 15px black
+    text-shadow:5px 5px 10px #65008c, 5px 5px 15px black
   }
   :nth-child(2):hover, :nth-child(3):hover {
     color:#bc13fe
   }
-
-
-  // :nth-child(3) {
-  //   display:block;
-  //   animation: fadeIn;
-  //   animation-duration: 2s;
-
-  // }
 }
 
 .gallery .demo {
   position:absolute;
-  top: 30px;
-  left: 40px;
-  font-weight: 400;
-  font-size: 24px;
+  top: 15px;
+  left: 20px;
+  font-weight: 300;
+  font-size: 20px;
   display: none;
   text-decoration: none;
 }
 
 .gallery .github {
   position:absolute;
-  bottom: 30px;
-  right: 40px;
-  font-weight: 400;
-  font-size: 24px;
+  bottom: 15px;
+  right: 20px;
+  font-weight: 300;
+  font-size: 20px;
   display: none;
   text-decoration: none;
 }
@@ -202,6 +200,22 @@ span:hover {
     height: 180px;
     padding-top: 0;
   }
+
+  .gallery .demo {
+    position:absolute;
+    top: 30px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .gallery .github {
+    position:absolute;
+    bottom: 30px;
+    right: 40px;
+    font-weight: 400;
+    font-size: 24px;
+  }
 }
 
 @media only screen and (min-width: 821px) {
@@ -215,6 +229,30 @@ span:hover {
     width: 160px;
     height: 100px;
     padding-top: 0;
+  }
+
+  .gallery .demo {
+    position:absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .gallery .github {
+    position:absolute;
+    bottom: 15px;
+    right: 20px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+
+
+  span:hover {
+    #title {
+      display: block;
+    }
   }
   #pic1 {
     transform:rotateY(calc(1 * 77.14285714285714deg))
@@ -318,6 +356,22 @@ span:hover {
     height: 125px;
     padding-top: 0;
   }
+
+  .gallery .demo {
+    position:absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .gallery .github {
+    position:absolute;
+    bottom: 15px;
+    right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -330,6 +384,26 @@ span:hover {
     width: 250px;
     height: 157px;
     padding-top: 0;
+  }
+
+  .gallery .demo {
+    position:absolute;
+    top: 30px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    display: none;
+    text-decoration: none;
+  }
+  
+  .gallery .github {
+    position:absolute;
+    bottom: 30px;
+    right: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    display: none;
+    text-decoration: none;
   }
 }
 

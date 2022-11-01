@@ -91,7 +91,7 @@ const project1 = [
   },
   {
     id: 11,
-    title: "Check Your Move",
+    title: "Check Your Movie",
     image: "./images/project1/checkyourmovie.png",
     deployed: "https://roflmelon.github.io/movie-db-app/",
     repo: "https://github.com/roflmelon/movie-db-app",
