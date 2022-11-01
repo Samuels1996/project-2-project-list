@@ -47,7 +47,7 @@ const project2 = [
   {
     id: 6,
     title: "Pet Place",
-    // image: './images/project2/',
+    image: "./images/project2/adoptionImage.png",
     deployed: "https://adoption-website.herokuapp.com/",
     repo: "https://github.com/Favour01216/Adoption-site",
     // description: '',
