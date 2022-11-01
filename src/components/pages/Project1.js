@@ -11,6 +11,8 @@ export default function Projects1(props) {
               return (
                 <span id={`${props.name}${index + 1}`} key={project.id}>
                   <img src={project.image} alt={project.title}></img>
+                  <div></div>
+                  <div className="github">We knew you would!</div>
                   <div id="title">{project.title}</div>
                 </span>
               );
