@@ -10,6 +10,7 @@ export default function Projects1() {
           {projects.map((project, index) => {
             return (
               <span id={`pic${index + 1}`} key={project.id}>
+                {/* <div id="title">{project.title}</div> */}
                 <img src={project.image} alt={project.title}></img>
                 <a
                   className="demo"
@@ -27,6 +28,7 @@ export default function Projects1() {
                 >
                   Github
                 </a>
+                <div id="title">{project.title}</div>
               </span>
             );
           })}
