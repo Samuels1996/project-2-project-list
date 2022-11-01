@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Button } from "bootstrap";
 export default function Projects1(props) {
   console.log(props);
 
@@ -19,7 +19,7 @@ export default function Projects1(props) {
         <section className="gallery">
           {props.projects.map((project, index) => {
             return (
-              <span id={`pic${index + 1}`} key={project.id}>
+              <span id={`${props.name}${index + 1}`} key={project.id}>
                 <img src={project.image} alt={project.title}></img>
                 <a
                   className="demo"
