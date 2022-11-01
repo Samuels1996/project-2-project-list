@@ -101,7 +101,7 @@ const project2 = [{
         id: 12,
         title: 'Tech Event Planner',
         // image: './images/project2/',
-        deployed: '',
+        deployed: 'https://tech-event-planner.herokuapp.com/',
         repo: 'https://github.com/hmhtom/tech-event-planner',
         // description: '',
         team_members: "Safa, Alex, Gabriella",
