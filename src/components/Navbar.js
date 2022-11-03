@@ -14,11 +14,11 @@ function Navbar({ currentPage, handlePageChange }) {
             Project 2
           </a>
         </li>
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a href="#project3" onClick={() => handlePageChange("Project3")}>
             Project 3
           </a>
-        </li> */}
+        </li>
       </ul>
     );
   }
