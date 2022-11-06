@@ -129,6 +129,11 @@ span:hover {
   text-decoration: none;
 }
 
+.pictures {
+  transform:rotateX(calc(var(--id) * (1080deg/(var(--picNum)))))
+  translateZ(var(--varTranslate));
+}
+
 @keyframes rotate{
   from{transform:perspective(var(--varPerspective)) rotateX(360deg);
   }
@@ -147,11 +152,6 @@ span:hover {
 
 .gallery a{
   color: #fff;
-}
-
-.pictures {
-  transform:rotateX(calc(var(--id) * 77.14285714285714deg))
-  translateZ(var(--varTranslate));
 }
 
 .gallery span img{

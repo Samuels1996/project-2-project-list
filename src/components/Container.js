@@ -10,12 +10,12 @@ export default function ProjectContainer() {
 
   const renderPage = () => {
     if (currentPage === "Project3") {
-      return <Projects projects={projectData3} name="pic" />;
+      return <Projects projects={projectData3} />;
     }
     if (currentPage === "Project2") {
-      return <Projects projects={projectData2} name="pic" />;
+      return <Projects projects={projectData2} />;
     }
-    return <Projects projects={projectData1} name="pic" />;
+    return <Projects projects={projectData1} />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

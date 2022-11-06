@@ -116,14 +116,6 @@ const project2 = [
     // description: '',
     team_members: "Xin, Keyshawn, Abdirahman",
   },
-  {
-    id: 14,
-    title: "You did it!!",
-    image: "./images/project2/congrats.jpg",
-    deployed: false,
-    repo: false,
-    // description: '',
-  },
 ];
 
 export default project2;
