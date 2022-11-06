@@ -1,6 +1,5 @@
 :root {
 --varTranslate: 280px;
---varTranslate2: 300px;
 --varPerspective: 800px;
 }
 
@@ -151,7 +150,7 @@ span:hover {
 }
 
 .pictures {
-  transform:rotateX(calc(1 * 77.14285714285714deg))
+  transform:rotateX(calc(var(--id) * 77.14285714285714deg))
   translateZ(var(--varTranslate));
 }
 
@@ -223,8 +222,9 @@ span:hover {
       display: block;
     }
   }
+
   .pictures {
-    transform:rotateY(calc(var(--id) * 77.14285714285714deg))
+    transform:rotateY(calc(var(--id) * (1080deg/(var(--picNum)))))
     translateZ(var(--varTranslate));
   }
   
@@ -253,7 +253,6 @@ span:hover {
   :root {
     --varPerspective: 2000px;
     --varTranslate: 450px;
-    --varTranslate2: 450px
   }
 
   .gallery {
@@ -316,7 +315,7 @@ span:hover {
   :root {
     --varPerspective: 1300px;
     --varTranslate: 600px;
-    --varTranslate2: 600px
+
   }
   .gallery {
     width: 265px;
@@ -329,7 +328,6 @@ span:hover {
   :root {
     --varPerspective: 1300px;
     --varTranslate: 720px;
-    --varTranslate2: 720px
   }
   .gallery {
     width: 320px;
