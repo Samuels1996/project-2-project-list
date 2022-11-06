@@ -18,7 +18,11 @@ export default function Projects1(props) {
               );
             } else {
               return (
-                <span id={`${props.name}${index + 1}`} key={project.id}>
+                <span
+                  className="pictures"
+                  key={project.id}
+                  style={{ "--id": `${index + 1}` }}
+                >
                   <img src={project.image} alt={project.title}></img>
                   <a
                     className="demo"
