@@ -1,6 +1,7 @@
 import React from "react";
 export default function Projects(props) {
-  console.log(props);
+  document.documentElement.style.setProperty("--length", props.projects.length);
+
   return (
     <main>
       <div id="carousel">
@@ -12,7 +13,6 @@ export default function Projects(props) {
                 key={project.id}
                 style={{
                   "--id": `${index + 1}`,
-                  "--picNum": `${props.projects.length}`,
                 }}
               >
                 <img src={project.image} alt={project.title}></img>

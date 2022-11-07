@@ -130,7 +130,7 @@ span:hover {
 }
 
 .pictures {
-  transform:rotateX(calc(var(--id) * (1080deg/(var(--picNum)))))
+  transform:rotateX(calc(var(--id) * (1080deg/(var(--length)))))
   translateZ(var(--varTranslate));
 }
 
@@ -224,7 +224,7 @@ span:hover {
   }
 
   .pictures {
-    transform:rotateY(calc(var(--id) * (1080deg/(var(--picNum)))))
+    transform:rotateY(calc(var(--id) * (360deg/(var(--length)))))
     translateZ(var(--varTranslate));
   }
   
@@ -326,8 +326,8 @@ span:hover {
 
 @media only screen and (min-width: 1700px) {
   :root {
-    --varPerspective: 1300px;
-    --varTranslate: 720px;
+    --varPerspective: calc(var(--length) * 93px);
+    --varTranslate: calc(var(--length) * 51px);
   }
   .gallery {
     width: 320px;
