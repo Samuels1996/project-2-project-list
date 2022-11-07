@@ -1,6 +1,6 @@
 :root {
---varTranslate: 280px;
---varPerspective: 800px;
+  --varPerspective: calc(var(--length) * 71px);
+  --varTranslate: calc(var(--length) * 20px)
 }
 
 .navbar {
@@ -163,7 +163,7 @@ span:hover {
 
 @media only screen and (min-width: 621px) {
   :root {
-    --varTranslate: 400px;
+    --varTranslate: calc(var(--length) * 29px)
   }
   .gallery {
     width: 288px;
@@ -190,7 +190,7 @@ span:hover {
 
 @media only screen and (min-width: 821px) {
   :root {
-    --varTranslate: 350px;
+    --varTranslate: calc(var(--length) * 25px)
   }
   main {
     background: linear-gradient(#bc13fe 2%, #020309 8% 92%, #bc13fe 98%)
@@ -239,8 +239,8 @@ span:hover {
 
 @media only screen and (min-width: 860px) {
   :root {
-    --varTranslate: 380px;
-    --varPerspective: 1000px;
+    --varPerspective: calc(var(--length) * 71px);
+    --varTranslate: calc(var(--length) * 27px)
   }
   .gallery {
     width: 170px;
@@ -251,8 +251,8 @@ span:hover {
 
 @media only screen and (min-width: 992px) {
   :root {
-    --varPerspective: 2000px;
-    --varTranslate: 450px;
+    --varPerspective: calc(var(--length) * 142px);
+    --varTranslate: calc(var(--length) * 32px)
   }
 
   .gallery {
@@ -280,8 +280,8 @@ span:hover {
 
 @media only screen and (min-width: 1300px) {
   :root {
-    --varPerspective: 1500px;
-    --varTranslate: 570px
+    --varPerspective: calc(var(--length) * 105px);
+    --varTranslate: calc(var(--length) * 41px)
   }
 
   .gallery {
@@ -313,8 +313,8 @@ span:hover {
 
 @media only screen and (min-width: 1500px) {
   :root {
-    --varPerspective: 1300px;
-    --varTranslate: 600px;
+    --varPerspective: calc(var(--length) * 93px);
+    --varTranslate: calc(var(--length) * 43px);
 
   }
   .gallery {
