@@ -6,7 +6,7 @@ const project3 = [
       deployed: "",
       repo: "",
       // description: '',
-      team_members: "",
+      team_members: "Matuesz, Michael S., Dylan",
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ const project3 = [
       deployed: "",
       repo: "",
       // description: '',
-      team_members: "",
+      team_members: "Amy, Sash, Jaymen",
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const project3 = [
       deployed: "",
       repo: "",
       // description: '',
-      team_members: "",
+      team_members: "Diana, Esra, Abed",
     },
     {
     id: 4,
@@ -33,7 +33,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Gabriella, Iva, Sagiri",
     },
     {
     id: 5,
@@ -42,7 +42,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Hannah, William, Ben",
     },
     {
     id: 6,
@@ -51,7 +51,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Safa, Alex, Nathan",
     },
     {
     id: 7,
@@ -60,7 +60,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Ellison, Nick, Alastair",
     },
     {
     id: 8,
@@ -69,7 +69,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Keyshawn, Pak, Hongdong",
     },
     {
     id: 9,
@@ -78,7 +78,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Thiviya, Harmonjot, Muaiz",
     }, {
     id: 10,
     title: "",
@@ -86,7 +86,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Kaye, Salman, Xin",
     },
     {
     id: 11,
@@ -95,7 +95,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Abdirahman, Hao, Favour",
     },
     {
     id: 12,
@@ -104,7 +104,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Trishane, Minh",
     },
     {
     id: 13,
@@ -113,7 +113,7 @@ const project3 = [
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "",
+    team_members: "Constan, Shayne, Jordan",
     }
   ];
   
