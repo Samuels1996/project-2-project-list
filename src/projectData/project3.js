@@ -1,41 +1,41 @@
 const project3 = [
-    {
-      id: 1,
-      title: "",
-      image: "",
-      deployed: "",
-      repo: "",
-      // description: '',
-      team_members: "Matuesz, Michael S., Dylan",
-    },
-    {
-      id: 2,
-      title: "",
-      image: "",
-      deployed: "",
-      repo: "",
-      // description: '',
-      team_members: "Amy, Sash, Jaymen",
-    },
-    {
-      id: 3,
-      title: "",
-      image: "",
-      deployed: "",
-      repo: "",
-      // description: '',
-      team_members: "Diana, Esra, Abed",
-    },
-    {
+  {
+    id: 1,
+    title: "",
+    image: "",
+    deployed: "",
+    repo: "",
+    // description: '',
+    team_members: "Matuesz, Michael S., Dylan",
+  },
+  {
+    id: 2,
+    title: "",
+    image: "",
+    deployed: "",
+    repo: "",
+    // description: '',
+    team_members: "Diana, Esra, Abed",
+  },
+  {
+    id: 3,
+    title: "",
+    image: "",
+    deployed: "https://whispering-inlet-47426.herokuapp.com/",
+    repo: "",
+    // description: '',
+    team_members: "Amy, Sash, Jaymen",
+  },
+  {
     id: 4,
     title: "",
     image: "",
     deployed: "",
-    repo: "https://github.com/Iva416/WorkoutBuddy",
+    repo: "",
     // description: '',
-    team_members: "Gabriella, Iva, Sagiri",
-    },
-    {
+    team_members: "Constan, Shayne, Jordan",
+  },
+  {
     id: 5,
     title: "",
     image: "",
@@ -43,26 +43,26 @@ const project3 = [
     repo: "https://github.com/hannahhue/will-b-hangry",
     // description: '',
     team_members: "Hannah, William, Ben",
-    },
-    {
+  },
+  {
     id: 6,
     title: "",
     image: "",
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "Safa, Alex, Nathan",
-    },
-    {
+    team_members: "Kaye, Salman, Xin",
+  },
+  {
     id: 7,
     title: "",
     image: "",
     deployed: "",
-    repo: "",
+    repo: "https://github.com/Iva416/WorkoutBuddy",
     // description: '',
-    team_members: "Ellison, Nick, Alastair",
-    },
-    {
+    team_members: "Gabriella, Iva, Sagiri",
+  },
+  {
     id: 8,
     title: "",
     image: "",
@@ -70,8 +70,8 @@ const project3 = [
     repo: "",
     // description: '',
     team_members: "Keyshawn, Pak, Hongdong",
-    },
-    {
+  },
+  {
     id: 9,
     title: "",
     image: "",
@@ -79,43 +79,43 @@ const project3 = [
     repo: "",
     // description: '',
     team_members: "Thiviya, Harmonjot, Muaiz",
-    }, {
+  },
+  {
     id: 10,
     title: "",
     image: "",
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "Kaye, Salman, Xin",
-    },
-    {
+    team_members: "Safa, Alex, Nathan",
+  },
+  {
     id: 11,
     title: "",
     image: "",
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "Abdirahman, Hao, Favour",
-    },
-    {
+    team_members: "Ellison, Nick, Alastair",
+  },
+  {
     id: 12,
     title: "",
     image: "",
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "Trishane, Minh",
-    },
-    {
+    team_members: "Abdirahman, Hao, Favour",
+  },
+  {
     id: 13,
     title: "",
     image: "",
     deployed: "",
     repo: "",
     // description: '',
-    team_members: "Constan, Shayne, Jordan",
-    }
-  ];
-  
-  export default project3;
-  
+    team_members: "Trishane, Minh",
+  },
+];
+
+export default project3;
