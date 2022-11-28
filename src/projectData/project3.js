@@ -11,9 +11,9 @@ const project3 = [
   {
     id: 2,
     title: "",
-    image: "",
+    image: "./images/project3/apollodae.png",
     deployed: "",
-    repo: "",
+    repo: "https://github.com/abedhasan79/ApolloDAE",
     // description: '',
     team_members: "Diana, Esra, Abed",
   },
@@ -37,9 +37,9 @@ const project3 = [
   },
   {
     id: 5,
-    title: "",
+    title: "Will Be Hangry",
     image: "",
-    deployed: "",
+    deployed: "https://will-b-hangry.herokuapp.com/",
     repo: "https://github.com/hannahhue/will-b-hangry",
     // description: '',
     team_members: "Hannah, William, Ben",
