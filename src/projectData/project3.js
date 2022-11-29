@@ -110,7 +110,7 @@ const project3 = [
   {
     id: 13,
     title: "Digital Wealth",
-    image: "/images/project3/digitalwealth.png",
+    image: "./images/project3/digitalwealth.png",
     deployed: "https://digital-wealth.netlify.app/",
     repo: "https://github.com/Trishaneww/Digital-Wealth",
     // description: '',

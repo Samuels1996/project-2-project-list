@@ -47,7 +47,7 @@ const project1 = [
   {
     id: 6,
     title: "Your Movie Database",
-    image: "../../images/project1/ymdb.png",
+    image: "./images/project1/ymdb.png",
     deployed: "https://hmhtom.github.io/Your-Movie-Databse/",
     repo: "https://github.com/hmhtom/Your-Movie-Databse",
     // description: '',
