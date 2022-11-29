@@ -1,7 +1,6 @@
 import React from "react";
 export default function Projects(props) {
   document.documentElement.style.setProperty("--length", props.projects.length);
-  console.log(props);
   return (
     <main>
       <div id="carousel">
