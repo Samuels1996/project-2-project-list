@@ -1,7 +1,7 @@
 const project3 = [
   {
     id: 1,
-    title: "",
+    title: "Vapour",
     image: "",
     deployed: "",
     repo: "https://github.com/MichaelSinn/vapour",
@@ -19,7 +19,7 @@ const project3 = [
   },
   {
     id: 3,
-    title: "Java Script",
+    title: "Java Script Mug Store",
     image: "",
     deployed: "https://whispering-inlet-47426.herokuapp.com/",
     repo: "https://github.com/AmyWilford/Mug-Store",
@@ -28,7 +28,7 @@ const project3 = [
   },
   {
     id: 4,
-    title: "",
+    title: "EZ Dossier",
     image: "",
     deployed: "",
     repo: "https://github.com/ConstantMotion1/EZDossier",
@@ -37,7 +37,7 @@ const project3 = [
   },
   {
     id: 5,
-    title: "Will Be Hangry",
+    title: "Will B Hangry",
     image: "",
     deployed: "https://will-b-hangry.herokuapp.com/",
     repo: "https://github.com/hannahhue/will-b-hangry",
@@ -73,7 +73,7 @@ const project3 = [
   },
   {
     id: 9,
-    title: "",
+    title: "The Goodness Gift",
     image: "",
     deployed: "",
     repo: "https://github.com/thivsiv28/The-goodness-gift",
@@ -82,7 +82,7 @@ const project3 = [
   },
   {
     id: 10,
-    title: "",
+    title: "NAS Center",
     image: "",
     deployed: "",
     repo: "https://github.com/hmhtom/NAS-Centre",
@@ -91,7 +91,7 @@ const project3 = [
   },
   {
     id: 11,
-    title: "",
+    title: "Swift Bank",
     image: "",
     deployed: "https://github.com/pav1593/swift-bank",
     repo: "",
@@ -100,7 +100,7 @@ const project3 = [
   },
   {
     id: 12,
-    title: "",
+    title: "Chattr",
     image: "",
     deployed: "",
     repo: "https://github.com/roflmelon/Chattr",
@@ -109,7 +109,7 @@ const project3 = [
   },
   {
     id: 13,
-    title: "",
+    title: "Digital Wealth",
     image: "",
     deployed: "",
     repo: "https://github.com/Trishaneww/Digital-Wealth",
